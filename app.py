@@ -152,7 +152,7 @@ for project, link in PROJECTS.items():
 
 # --- Certificates ---
 st.write('\n')
-st.subheader("Certificates")
+st.subheader("Certifications")
 st.write("---")
 st.write("⭐ [Data Analytics Consulting Virtual Internship](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
 st.write("⭐ [SQL Basic by Hacker Rank](https://www.hackerrank.com/certificates/2210e5fa6e00)")
