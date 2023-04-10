@@ -25,7 +25,7 @@ SOCIAL_MEDIA = {
 }
 PROJECTS = {
     "🏆 Sales Dashboard - Perfect overview of sales in particular state wise": "https://public.tableau.com/app/profile/darshan6443/viz/Task3_16496633540690/Dashboard1?publish=yes",
-    "🏆 Whatsapp Chat Analyzer - Detailed analysis of your Whatsapp Chats": "https://youtu.be/3egaMfE9388"
+    "🏆 Whatsapp Chat Analyzer - Detailed analysis of your Whatsapp Chats": "https://darshan660-whatsapp-chat-analyzer-app-39qdr8.streamlit.app/"
 
 }
 
