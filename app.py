@@ -127,6 +127,7 @@ st.write(
 )
 
 # --Virtual Internships--
+st.write('\n')
 st.subheader("Virtual Internships")
 st.write("---")
 st.write("💻 [Data Analytics Consulting Virtual Internship by **KPMG**](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
