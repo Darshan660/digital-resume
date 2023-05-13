@@ -1,5 +1,7 @@
 # Digital Resume
 
+Link for my digital resume: https://darshans-resume.streamlit.app/
+
 ## Introduction
 
 Welcome to my digital resume! This project showcases my skills, experience, and projects in an interactive and visually appealing manner. It serves as an online portfolio and allows you to explore my professional background and accomplishments.
@@ -19,3 +21,5 @@ Welcome to my digital resume! This project showcases my skills, experience, and 
 
 
 Note:- Every section which may include certificates are clickable so please click on the text itself to view the certificates.
+
+Thank you for visiting my digital resume! I hope you find it informative and engaging. If you have any questions or would like to connect, feel free to reach out to me.
