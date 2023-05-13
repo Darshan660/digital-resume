@@ -13,19 +13,17 @@ profile_pic = current_dir / "assets" / "profile-pic (3).png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Darshan Kholakiya"
-PAGE_ICON = ":wave:"
+PAGE_ICON = ":clipboard:"
 NAME = "Darshan Kholakiya"
 DESCRIPTION = """
 Data Science Enthusiast, seeking to gain hands-on experience in data science and leverage my skills to drive value for organizations.
 """
-EMAIL = "darshankholakiya12@gmail.com"
-SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/darshankholakiya",
-    "GitHub": "https://github.com/Darshan660"
-}
+
 PROJECTS = {
     "🏆 Sales Dashboard - Perfect overview of sales in particular state wise": "https://public.tableau.com/app/profile/darshan6443/viz/Task3_16496633540690/Dashboard1?publish=yes",
-    "🏆 Whatsapp Chat Analyzer - Detailed analysis of your Whatsapp Chats": "https://darshan660-whatsapp-chat-analyzer-app-39qdr8.streamlit.app/"
+    "🏆 Whatsapp Chat Analyzer - Detailed analysis of your Whatsapp Chats": "https://darshan660-whatsapp-chat-analyzer-app-39qdr8.streamlit.app/",
+"🏆 Laptop Price Predictor - Predicts your laptop price with respect to specifications": "https://darshans-project-laptop-price-predictor.streamlit.app/",
+"🏆 Asian Landmark Detection - Predicts the name and give you the location of you uploaded Asian landmark": "https://darshans-project-landmark-detection.streamlit.app/"
 
 }
 
@@ -45,9 +43,6 @@ profile_pic = Image.open(profile_pic)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.write("\n")
-    st.write("\n")
-    st.write("\n")
-    st.write("\n")
     st.image(profile_pic, width=290)
 
 with col2:
@@ -59,15 +54,6 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
-
-
-# --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[1].write(f"[{platform}]({link})")
-
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
@@ -142,6 +128,11 @@ st.write(
 """
 )
 
+# --Virtual Internships--
+st.subheader("Virtual Internships")
+st.write("---")
+st.write("💻 [Data Analytics Consulting Virtual Internship by **KPMG**](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
+st.write("💻 [Data Analytics and Visualization Virtual Experience by **Accenture**](https://drive.google.com/file/d/1OMGI8JTw2i9-6WeJCElUECS82FVvALaC/view?usp=sharing)")
 
 # --- Projects & Accomplishments ---
 st.write('\n')
@@ -154,8 +145,35 @@ for project, link in PROJECTS.items():
 st.write('\n')
 st.subheader("Certifications")
 st.write("---")
-st.write("⭐ [Data Analytics Consulting Virtual Internship](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
 st.write("⭐ [SQL Basic by Hacker Rank](https://www.hackerrank.com/certificates/2210e5fa6e00)")
 st.write("⭐ [Python Basic by Hacker Rank](https://www.hackerrank.com/certificates/734db324877c)")
 st.write("⭐ [Data Analysis with Python by IBM](https://courses.cognitiveclass.ai/certificates/ed3f311e302e42bb93ca4714102bd94f)")
 st.write("⭐ [Data Science 101 by IBM](https://courses.cognitiveclass.ai/certificates/432002b8b4924450ad3a20a06be4c251)")
+st.write('')
+
+# Create columns for each social media link
+col1, col2, col3, col4 = st.columns(4)
+
+# Add LinkedIn link
+with col1:
+    st.markdown('<a href="https://www.linkedin.com/in/darshankholakiya/" target="_blank" style="text-decoration:none;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055" alt="LinkedIn" width="40" height="40" style="display:block;margin-left:auto;margin-right:auto;"></a>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center;font-size:16px;margin-top:10px;">LinkedIn</p>', unsafe_allow_html=True)
+
+# Add GitHub link
+with col2:
+    st.markdown('<a href="https://github.com/Darshan660" target="_blank" style="text-decoration:none;"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" height="40" style="display:block;margin-left:auto;margin-right:auto;"></a>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center;font-size:16px;margin-top:10px;">GitHub</p>', unsafe_allow_html=True)
+
+# Add Twitter link
+with col3:
+    st.markdown('<a href="https://wa.me/917710020979?text=Hello%20there,%20I%20thanks%20for%20connecting!" style="text-decoration:none;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="Twitter" width="40" height="40" style="display:block;margin-left:auto;margin-right:auto;"></a>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center;font-size:16px;margin-top:10px;">WhatsApp</p>', unsafe_allow_html=True)
+
+# Add Email link
+with col4:
+    st.markdown('<a href="mailto:darshankholakiya12@gmail.com"  target="_blank" style="text-decoration:none;"><img src="https://workspace.google.com/static/img/products/png/gmail.png?cache=f50ecb6" alt="Email" width="40" height="40" style="display:block;margin-left:auto;margin-right:auto;"></a>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center;font-size:16px;margin-top:10px;">Email</p>', unsafe_allow_html=True)
+
+# Add footer
+st.write('---')
+st.write('© Darshan Kholakiya  |  Last updated: May 2023')
