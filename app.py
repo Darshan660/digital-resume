@@ -13,7 +13,7 @@ profile_pic = current_dir / "assets" / "profile-pic (3).png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Darshan Kholakiya"
-PAGE_ICON = ":clipboard:"
+PAGE_ICON = "📋"
 NAME = "Darshan Kholakiya"
 DESCRIPTION = """
 Data Science Enthusiast, seeking to gain hands-on experience in data science and leverage my skills to drive value for organizations.
@@ -27,9 +27,7 @@ PROJECTS = {
 
 }
 
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
