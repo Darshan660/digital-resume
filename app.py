@@ -58,7 +58,7 @@ st.write('\n')
 st.subheader("Qualifications")
 
 st.write("- ✔️ BSc Data Science | KES Shroff College(Kandivali West)")
-st.write("- - "+"2020 - Present")
+st.write("- - "+"2020 - 2023")
 st.write("- ✔️ HSC | Shri T.P. Bhatia College of Science(Kandivali West)")
 st.write("- - "+"2018 - 2020")
 st.write("- ✔️ SSC | Rustomjee International School(Dahisar West)")
