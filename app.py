@@ -132,6 +132,7 @@ st.subheader("Virtual Internships")
 st.write("---")
 st.write("💻 [Data Analytics Consulting Virtual Internship by **KPMG**](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
 st.write("💻 [Data Analytics and Visualization Virtual Experience by **Accenture**](https://drive.google.com/file/d/1OMGI8JTw2i9-6WeJCElUECS82FVvALaC/view?usp=sharing)")
+st.write("💻 [Data Visualisation: Empowering Business with Effective Insights by **Tata**](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_cu2bCcpvCZzhhdHT5_1685965885645_completion_certificate.pdf)")
 
 # --- Projects & Accomplishments ---
 st.write('\n')
