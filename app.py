@@ -93,6 +93,10 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
+st.write("🚧", "Data Science Intern | BugendaiTech")
+st.write("- "+"Jun 2023 - Present")
+
+# --- JOB 2
 st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.google.com/file/d/1RdlEus2yYHSQduBE3rPmU-MK_cZA0WYW/view?usp=sharing)")
 st.write("- "+"Aug 2022 - Feb 2023")
 st.write(
@@ -105,27 +109,6 @@ st.write(
 """
 )
 
-# --- JOB 2
-st.write('\n')
-st.write("🚧", "[Data Science Intern | LetsGrowMore](https://drive.google.com/file/d/1mmcNWJKBLp8w-fVe4qwO8IfxHbi-nfwW/view?usp=sharing)")
-st.write("- "+"Jun 2022 - Jul 2022")
-st.write(
-    """
-- ► Build an Iris flower classification model with algorithms like Logistic Regression and Decision Tree Classifier to predict the species of the flower.
-"""
-)
-
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "[Data Science & Business Analytics Intern | The Sparks Foundation](https://drive.google.com/file/d/12eFNXTwrPAT-0TzH426Y8D98mTKWfGiS/view?usp=sharing)")
-st.write("- "+"Apr 2022 - May 2022")
-st.write(
-    """
-- ► Build a sales performance dashboard on tableau for US Sample store dataset to compare the sales between the states and region and also displayed the KPI's on the dashboard.
-- ► Build a Unsupervised machine learning model that predicts student’s score based upon the number of hours studied.
-"""
-)
-
 # --Virtual Internships--
 st.write('\n')
 st.subheader("Virtual Internships")
@@ -133,6 +116,8 @@ st.write("---")
 st.write("💻 [Data Analytics Consulting Virtual Internship by **KPMG**](https://drive.google.com/file/d/1pgvFCU0yLsfkrpurqWIFeU2fwmlFKQ4W/view?usp=sharing)")
 st.write("💻 [Data Analytics and Visualization Virtual Experience by **Accenture**](https://drive.google.com/file/d/1OMGI8JTw2i9-6WeJCElUECS82FVvALaC/view?usp=sharing)")
 st.write("💻 [Data Visualisation: Empowering Business with Effective Insights by **Tata**](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_cu2bCcpvCZzhhdHT5_1685965885645_completion_certificate.pdf)")
+st.write("💻 [Data Science Intern by **LetsGrowMore**](https://drive.google.com/file/d/1mmcNWJKBLp8w-fVe4qwO8IfxHbi-nfwW/view?usp=sharing)")
+st.write("💻 [Data Science & Business Analytics Intern by **The Sparks Foundation**](https://drive.google.com/file/d/12eFNXTwrPAT-0TzH426Y8D98mTKWfGiS/view?usp=sharing)")
 
 # --- Projects & Accomplishments ---
 st.write('\n')
@@ -145,6 +130,7 @@ for project, link in PROJECTS.items():
 st.write('\n')
 st.subheader("Certifications")
 st.write("---")
+st.write("⭐ [Data Scientist by Try Catch Classes](https://drive.google.com/file/d/15bYuxwAAtyAZ1etyNeju1JVfOA5-0Ii9/view)")
 st.write("⭐ [SQL Basic by Hacker Rank](https://www.hackerrank.com/certificates/2210e5fa6e00)")
 st.write("⭐ [Python Basic by Hacker Rank](https://www.hackerrank.com/certificates/734db324877c)")
 st.write("⭐ [Data Analysis with Python by IBM](https://courses.cognitiveclass.ai/certificates/ed3f311e302e42bb93ca4714102bd94f)")
@@ -176,4 +162,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Darshan Kholakiya  |  Last updated: June 2023')
+st.write('© Darshan Kholakiya  |  Last updated: July 2023')
