@@ -101,11 +101,13 @@ st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.go
 st.write("- "+"Aug 2022 - Feb 2023")
 st.write(
     """
-- ► Collected, cleaned and standardized data of global indicators for 49 countries using google spreadsheet.
-- ► Worked on Google Data Studio to generate visualization charts like bar graphs, pie charts, funnel charts, filled map, and many more charts for making the reports.
-- ► Worked with the team of data analyst and conducted analysis on data and provided insights to support business decisions.
-- ► Collaborated with cross functional teams to identify data trends, patterns and exchange information to complete the requirments.
-- ► Also contributed in developing and implementing data quality control measures to ensure good data and accurate data analysis 
+- ► Utilized Google Spreadsheet to collect, clean, and standardize global indicators data for 49 countries.
+- ► Orchestrated the generation of various visualizations, including filled maps, pie charts, funnel and many more charts using Looker Studio; created 20+ reports for stakeholders across departments.
+- ► Collaborated with a team of data analysts to conduct in-depth data analysis and provide valuable insights to support strategic business decisions.
+- ► Actively participated in cross-functional collaboration, fostering effective communication and information exchange to identify data trends, patterns, and meet project requirements.
+- ► Played a key role in developing and implementing data quality control measures to ensure the accuracy and integrity of data, facilitating reliable data analysis.
+- ► Conducted statistical analysis and transformed findings into visually appealing representations, offering meaningful insights to stakeholders.
+- ► Maintained comprehensive data records for multiple teams, ensuring accuracy and consistency in report generation for all 49 countries.
 """
 )
 
