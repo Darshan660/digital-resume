@@ -66,7 +66,7 @@ st.write("- - "+"2007 - 2018")
 
 # --- SKILLS ---
 st.write('\n')
-st.subheader("Professional proficiencies")
+st.subheader("Professional Proficiencies")
 col1,col2 = st.columns(2)
 with col1:
     st.write(
