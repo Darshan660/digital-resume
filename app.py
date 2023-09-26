@@ -106,7 +106,7 @@ st.write(
 - ► Deployed the system on Gradio and enabled real-time output streaming.
 """
 )
-st.write()
+st.write('\n')
 # --- JOB 2
 st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.google.com/file/d/1RdlEus2yYHSQduBE3rPmU-MK_cZA0WYW/view?usp=sharing)")
 st.write("- "+"Aug 2022 - Feb 2023")
