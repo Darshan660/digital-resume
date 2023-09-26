@@ -95,7 +95,7 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "Data Science Intern | BugendaiTech")
+st.write("🚧", "[Data Science Intern | BugendaiTech](https://drive.google.com/file/d/1tI3BjBbwDKz-vmWY54gb-iCCyoDVDTMh/view?usp=sharing)")
 st.write("- "+"Jun 2023 - Present")
 
 # --- JOB 2
