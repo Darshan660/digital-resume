@@ -97,6 +97,15 @@ st.write("---")
 # --- JOB 1
 st.write("🚧", "[Data Science Intern | BugendaiTech](https://drive.google.com/file/d/1tI3BjBbwDKz-vmWY54gb-iCCyoDVDTMh/view?usp=sharing)")
 st.write("- "+"Jun 2023 - Present")
+st.write(
+    """
+- ► Developed a Generative AI Project using LLM’s.
+- ► Designed the system to create project documentation in a personalized format.
+- ► Selected and fine-tuned a pre-trained model with ensuring data quality and model accuracy.
+- ► Prioritized data privacy as a core objective of the project and significantly increased productivity and saved time for the team.
+- ► Deployed the system on Gradio and enabled real-time output streaming.
+"""
+)
 
 # --- JOB 2
 st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.google.com/file/d/1RdlEus2yYHSQduBE3rPmU-MK_cZA0WYW/view?usp=sharing)")
