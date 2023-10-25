@@ -8,6 +8,7 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "Darshan's CV.pdf"
+work_sample_file = current_dir / "assets" / "Work Sample.pdf"
 profile_pic = current_dir / "assets" / "profile-pic(professional).png"
 
 
@@ -46,12 +47,20 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+    # For Resume pdf Download
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+    # For Work Sample pdf Download
+    st.download_button(
+            label=" 📄 Download Work Sample",
+            data=PDFbyte,
+            file_name=resume_file.name,
+            mime="application/octet-stream",
+        )
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
