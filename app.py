@@ -58,7 +58,7 @@ with col2:
     st.download_button(
             label=" 📄 Download Work Sample",
             data=PDFbyte,
-            file_name=resume_file.name,
+            file_name=work_sample_file.name,
             mime="application/octet-stream",
         )
 
