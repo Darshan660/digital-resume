@@ -105,14 +105,14 @@ st.write("---")
 
 # --- JOB 1
 st.write("🚧", "[Data Science Intern | BugendaiTech](https://drive.google.com/file/d/1tI3BjBbwDKz-vmWY54gb-iCCyoDVDTMh/view?usp=sharing)")
-st.write("- "+"Jun 2023 - Present")
+st.write("- "+"Jun 2023 - Dec 2023)
 st.write(
     """
-- ► Developed a Generative AI Project using LLM’s.
-- ► Designed the system to create project documentation in a personalized format.
-- ► Selected and fine-tuned a pre-trained model with ensuring data quality and model accuracy.
-- ► Prioritized data privacy as a core objective of the project and significantly increased productivity and saved time for the team.
-- ► Deployed the system on Gradio and enabled real-time output streaming.
+- ► Developed and lead the implementation of the "Project Documentation Generator" using Large Language Models (LLMs).
+- ► Conceptualized and designed an innovative system to automate and personalize project documentation or summarization of meetings notes, revolutionizing the project management process, which increased team efficiency by 50%.
+- ► Precisely fine-tuned a pre-trained model, ensuring data quality aligned with the organization's specific requirements.
+- ► Prioritized data privacy as a core objective of the project while concurrently achieving increase in team productivity and a remarkable reduction of generating project documentation time by 60%.
+- ► Pioneered the design of the User Interface on Gradio, enabling real-time streaming of the output.
 """
 )
 st.write('\n') # For new line
@@ -122,11 +122,13 @@ st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.go
 st.write("- "+"Aug 2022 - Feb 2023")
 st.write(
     """
-- ► Collected, cleaned, and standardized global indicators data for countries using Google Spreadsheet.
-- ► Generated 20+ insightful reports with diverse visualizations on Google Studio, enhancing data-driven decision-making.
-- ► Collaborated effectively with cross-functional teams to identify data trends and patterns.
-- ► Implemented robust data quality control measures, ensuring data accuracy and integrity.
-- ► Maintained meticulous data records for 49 countries, ensuring consistency and reliability.
+- ► Utilized Google Spreadsheet to collect, clean, and standardize global indicators data for 49 countries.
+- ► Orchestrated the generation of various visualizations, including filled maps, pie charts, funnel and many more charts using Looker Studio; created 20+ reports for stakeholders across departments.
+- ► Collaborated with a team of data analysts to conduct in-depth data analysis and provide valuable insights to support strategic business decisions.
+- ► Actively participated in cross-functional collaboration, fostering effective communication and information exchange to identify data trends, patterns, and meet project requirements.
+- ► Played a key role in developing and implementing data quality control measures to ensure the accuracy and integrity of data, facilitating reliable data analysis.
+- ► Conducted statistical analysis and transformed findings into visually appealing representations, offering meaningful insights to stakeholders.
+- ► Maintained comprehensive data records for multiple teams, ensuring accuracy and consistency in report generation for all 49 countries.
 """
 )
 
@@ -184,4 +186,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Darshan Kholakiya  |  Last updated: October 2023')
+st.write('© Darshan Kholakiya  |  Last updated: December 2023')
