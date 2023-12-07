@@ -105,7 +105,7 @@ st.write("---")
 
 # --- JOB 1
 st.write("🚧", "[Data Science Intern | BugendaiTech](https://drive.google.com/file/d/1tI3BjBbwDKz-vmWY54gb-iCCyoDVDTMh/view?usp=sharing)")
-st.write("- "+"Jun 2023 - Dec 2023)
+st.write("- "+"Jun 2023 - Dec 2023")
 st.write(
     """
 - ► Developed and lead the implementation of the "Project Documentation Generator" using Large Language Models (LLMs).
