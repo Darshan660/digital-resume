@@ -4,7 +4,7 @@ Link for my digital resume: https://darshans-resume.streamlit.app/
 
 ## Introduction
 
-Welcome to my digital resume! This project showcases my skills, experience, and projects in an interactive and visually appealing manner. It serves as an online portfolio and allows you to explore my professional background and accomplishments.
+Welcome to my digital resume! This project showcases my skills, experience, and projects in an interactive and visually appealing manner. It goes beyond the limitations of a static document and serves as an online portfolio which allows you to explore my professional background and accomplishments.
 
 ## Features
 
