@@ -186,4 +186,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Darshan Kholakiya  |  Last updated: December 2023')
+st.write('© Darshan Kholakiya  |  Last updated: January 2024')
