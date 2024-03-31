@@ -104,7 +104,7 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "[Junior Data Scientist | Global Nodes]()")
+st.write("🚧", "[Junior Data Scientist | Global Nodes]")
 st.write("- "+"Feb 2024 - Present")
 
 # --- JOB 2
