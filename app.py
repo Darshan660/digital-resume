@@ -104,6 +104,10 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
+st.write("🚧", "[Junior Data Scientist | Global Nodes]()")
+st.write("- "+"Feb 2024 - Present")
+
+# --- JOB 2
 st.write("🚧", "[Data Science Intern | BugendaiTech](https://drive.google.com/file/d/1tI3BjBbwDKz-vmWY54gb-iCCyoDVDTMh/view?usp=sharing)")
 st.write("- "+"Jun 2023 - Dec 2023")
 st.write(
@@ -117,7 +121,7 @@ st.write(
 )
 st.write('\n') # For new line
 
-# --- JOB 2
+# --- JOB 3
 st.write("🚧", "[Data Analyst Intern | Dowell Research India](https://drive.google.com/file/d/1RdlEus2yYHSQduBE3rPmU-MK_cZA0WYW/view?usp=sharing)")
 st.write("- "+"Aug 2022 - Feb 2023")
 st.write(
@@ -186,4 +190,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Darshan Kholakiya  |  Last updated: January 2024')
+st.write('© Darshan Kholakiya  |  Last updated: April 2024')
