@@ -104,7 +104,7 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "Junior Data Scientist | Global Nodes")
+st.write("🚧", "Data Scientist | Global Nodes")
 st.write("- "+"Feb 2024 - Present")
 
 # --- JOB 2
@@ -190,4 +190,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Darshan Kholakiya  |  Last updated: April 2024')
+st.write('© Darshan Kholakiya  |  Last updated: October 2024')
